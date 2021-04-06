@@ -11,6 +11,10 @@ html {
 }
 
 body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   font-family: 'Inter', sans-serif;
   background-size: cover;
   display: -webkit-box;
